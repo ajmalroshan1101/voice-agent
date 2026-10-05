@@ -1,0 +1,46 @@
+project_id = "llypexmghncecpudvjgq"
+
+[functions.vapi-list-calls]
+verify_jwt = false
+
+[functions.vapi-get-call]
+verify_jwt = false
+
+[functions.vapi-list-numbers]
+verify_jwt = false
+
+[functions.vapi-list-assistants]
+verify_jwt = false
+
+[functions.vapi-create-call]
+verify_jwt = false
+
+[functions.vapi-webhook]
+verify_jwt = false
+
+[functions.vapi-analyze-call]
+verify_jwt = false
+
+[functions.analyze-lead]
+verify_jwt = false
+
+[functions.campaign-launch]
+verify_jwt = false
+
+[functions.contact-auto-call]
+verify_jwt = false
+
+[functions.process-retries]
+verify_jwt = false
+
+[functions.help-chat]
+verify_jwt = false
+
+[functions.process-call-queue]
+verify_jwt = false
+
+[functions.update-knowledge-base]
+verify_jwt = false
+
+[functions.translate-text]
+verify_jwt = false

@@ -1,0 +1,4 @@
+ALTER TABLE public.call_analyses
+  ADD COLUMN IF NOT EXISTS tone TEXT,
+  ADD COLUMN IF NOT EXISTS tone_reason TEXT,
+  ADD COLUMN IF NOT EXISTS summary_email_sent_at TIMESTAMPTZ;
